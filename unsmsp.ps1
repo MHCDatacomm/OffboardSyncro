@@ -10,4 +10,4 @@ if ([System.IntPtr]::Size -eq 4)
 
 $wc.DownloadFile("$dropboxUrl",'C:\temp\UninstallView.exe')
 
-c:\temp\UninstallView.exe /quninstall "Syncro"
+c:\temp\UninstallView.exe /quninstall /RunAsAdmin "Syncro"
