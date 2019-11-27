@@ -10,4 +10,6 @@ else {
 
 $wc.DownloadFile("$dropboxUrl",'C:\temp\UninstallView.exe')
 
+Start-Sleep -Seconds 3
+
 c:\temp\UninstallView.exe /quninstall /RunAsAdmin "Syncro"
