@@ -1,4 +1,4 @@
-$wc = New-Object System.Net.WebClient
+<#$wc = New-Object System.Net.WebClient
 
 #Check OS
 if ([System.IntPtr]::Size -eq 4) {
@@ -11,5 +11,5 @@ else {
 $wc.DownloadFile("$dropboxUrl",'C:\temp\UninstallView.exe')
 
 Start-Sleep -Seconds 3
-
-c:\temp\UninstallView.exe /quninstall /RunAsAdmin "Syncro"
+#>
+c:\temp\UninstallView.exe /quninstall "Syncro"
